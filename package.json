@@ -1,0 +1,14 @@
+{
+  "name": "lectures",
+  "private": true,
+  "scripts": {
+    "dev": "slidev",
+    "build": "slidev build --base /lectures/"
+  },
+  "devDependencies": {
+    "@slidev/cli": "latest"
+  },
+  "dependencies": {
+    "@slidev/theme-default": "^0.25.0"
+  }
+}

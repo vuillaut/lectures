@@ -6,7 +6,8 @@
     "build": "slidev build --base /my-talks/quality_tools/"
   },
   "devDependencies": {
-    "@slidev/cli": "latest"
+    "@slidev/cli": "latest",
+    "@slidev/theme-seriph": "latest"
   },
   "dependencies": {
     "@slidev/theme-seriph": "^0.25.0"

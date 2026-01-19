@@ -24,9 +24,14 @@ jobs:
 
       - run: npm run build
 
+      - name: Prepare artifacts
+        run: |
+          mkdir -p _site
+          find . -type d -name "dist" -not -path "./_site/*" -exec cp -r {} _site/{} \;
+
       - uses: actions/upload-pages-artifact@v3
         with:
-          path: "**/dist"
+          path: _site
 
   deploy:
     needs: build

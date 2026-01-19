@@ -8,7 +8,8 @@
     "dev": "slidev"
   },
   "devDependencies": {
-    "@slidev/cli": "latest"
+    "@slidev/cli": "latest",
+    "@slidev/theme-seriph": "latest"
   },
   "dependencies": {
     "@slidev/theme-default": "^0.25.0"

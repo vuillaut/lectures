@@ -2,8 +2,10 @@
   "name": "lectures",
   "private": true,
   "scripts": {
-    "dev": "slidev",
-    "build": "slidev build --base /lectures/"
+    "build:quality_tools": "cd quality_tools && slidev build --base /lectures/quality_tools/",
+    "build:software_publication": "cd software_publication && slidev build --base /lectures/software_publication/",
+    "build": "npm run build:quality_tools && npm run build:software_publication",
+    "dev": "slidev"
   },
   "devDependencies": {
     "@slidev/cli": "latest"

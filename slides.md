@@ -1,9 +1,6 @@
-# Hello Slidev
+# My Lectures
 
-This is a minimal slide.
+Welcome! Choose a lecture:
 
----
-
-## Second Slide
-
-More content here.
+- [Software Quality Tools](./quality_tools/)
+- [Software Publication](./software_publication/)

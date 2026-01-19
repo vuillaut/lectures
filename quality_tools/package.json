@@ -1,0 +1,14 @@
+{
+  "name": "quality_tools",
+  "private": true,
+  "scripts": {
+    "dev": "slidev",
+    "build": "slidev build --base /my-talks/quality_tools/"
+  },
+  "devDependencies": {
+    "@slidev/cli": "latest"
+  },
+  "dependencies": {
+    "@slidev/theme-seriph": "^0.25.0"
+  }
+}

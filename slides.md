@@ -1,6 +1,6 @@
-# My Lectures
+# My Lectures real index
 
 Welcome! Choose a lecture:
 
-- [Software Quality Tools](./quality_tools/)
-- [Software Publication](./software_publication/)
+- <a href="/lectures/quality_tools/" target="_self">Software Quality Tools</a>
+- <a href="/lectures/software_publication/" target="_self">Software Publication</a>

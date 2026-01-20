@@ -2,9 +2,10 @@
   "name": "lectures",
   "private": true,
   "scripts": {
-    "build:quality_tools": "cd quality_tools && slidev build --base /lectures/quality_tools/",
-    "build:software_publication": "cd software_publication && slidev build --base /lectures/software_publication/",
-    "build": "npm run build:quality_tools && npm run build:software_publication",
+    "build:index": "slidev build --base /lectures/ --out dist",
+    "build:quality_tools": "cd quality_tools && slidev build --base /lectures/quality_tools/ --out ../dist/quality_tools",
+    "build:software_publication": "cd software_publication && slidev build --base /lectures/software_publication/ --out ../dist/software_publication",
+    "build": "npm run build:index && npm run build:quality_tools && npm run build:software_publication",
     "dev": "slidev"
   },
   "devDependencies": {
@@ -12,6 +13,7 @@
     "@slidev/theme-seriph": "latest"
   },
   "dependencies": {
-    "@slidev/theme-default": "^0.25.0"
+    "@slidev/theme-default": "^0.25.0",
+    "slidev-theme-light-icons": "^1.0.2"
   }
 }

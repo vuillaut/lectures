@@ -23,6 +23,8 @@ jobs:
 
       - run: npm install
 
+      - run: npm i -D playwright-chromium. # necessary for PDF export
+
       - run: npm run build
 
       - uses: actions/upload-pages-artifact@v3

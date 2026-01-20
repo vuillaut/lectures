@@ -16,6 +16,7 @@ mdc: true
 duration: 120min
 layout: cover
 aspectRatio: 16/9
+download: true
 ---
 
 # FAIRness and Software Publication

@@ -1,13 +1,9 @@
 ---
 theme: seriph
-background: https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=2072
+background: https://unsplash.com/photos/eFbxYl9M_lc/download?force=true&w=1920
 title: Quality Tools for Research Software
 info: |
-  ## Quality Tools for Research Software
-  A practical guide to Python quality tools, testing, and best practices.
-
-  Learn more at [EVERSE RSQKit](https://everse.software/RSQKit/)
-  Based on EVERSE RSQKit resources.
+  ## Practical tools for ensuring code quality in 2026 with a bias on Python
 class: text-center
 drawings:
   persist: false
@@ -29,8 +25,14 @@ aspectRatio: 16/9
   </span>
 </div>
 
+
 <div class="abs-tl m-6 flex">
-  <img src="https://raw.githubusercontent.com/s3-school/s3-2026-lectures/main/docs/assests/img/S3-School-LOGO_long.png" alt="S3 School Logo" class="h-12 opacity-80" />
+  <img src="https://raw.githubusercontent.com/s3-school/s3-2026-lectures/main/docs/assests/img/S3-School-LOGO_long.png" alt="S3 School Logo" class="h-24 opacity-100" />
+</div>
+<div class="abs-bl m-6 flex gap-4 items-center">
+  <img src="https://everse.software/images/logos/EOSCEverse_PosColour_full.svg" alt="EOSC Everse Logo" class="h-9 opacity-100" />
+  <img src="https://oscars-project.eu/themes/custom/skeleton/logo.svg" alt="OSCARS Logo" class="h-9 opacity-100" />
+  <img src="https://oscars-project.eu/themes/custom/skeleton/images/eu-funded.svg" alt="EU Funded Logo" class="h-9 opacity-100" />
 </div>
 
 <div class="abs-br m-6 flex gap-2">

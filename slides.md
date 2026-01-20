@@ -1,4 +1,4 @@
-# My Lectures real index
+# My Lectures
 
 Welcome! Choose a lecture:
 

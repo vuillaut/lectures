@@ -396,6 +396,13 @@ Ruff is the modern choice for Python linting and formatting. It's incredibly fas
     - save
     - watch instant formatting
 
+
+
+<div class="mt-3 p-3 bg-blue-50 dark:bg-blue-900 rounded">
+💡 Mess with files to see ruff in action (the pkoffee source files were already linted)
+</div>
+
+
 ---
 level: 2
 ---
@@ -913,19 +920,59 @@ Live demo showing how each tool finds different types of issues. Fix them one by
 -->
 
 ---
-level: 2
 layout: two-cols
+zoom: 0.9
 ---
 
 # Exercise: Add badges to your README
 
 ## Tasks
 
+1. **GitHub Actions Badge**:
+   - Go to your repository **Actions** tab
+   - Select your workflow
+   - Click **...** -> **Create status badge**
+   - Copy Markdown and add it to `README.md`
 
+2. **Ruff / Quality Badges**:
+   - Use [Shields.io](https://shields.io/) to create custom badges
+   - Example: Linted with Ruff
 
-<div class="mt-3 text-xs opacity-70">
+3. **Interrogate (Opt)**:
+   - Use the interrogate badge if you have it in your CI
+
+::right::
+
+<div class="mt-3 text-s opacity-70">
 ⏱️ 15 minutes hands-on exercise
 </div>
+<br>
+
+
+## Examples
+
+**GitHub Action status:**
+```markdown
+[![Deliver results](https://github.com/s3-school/pkoffee/actions/workflows/deliver.yml/badge.svg)](https://github.com/s3-school/pkoffee/actions/workflows/deliver.yml)
+```
+
+[![Deliver results](https://github.com/s3-school/pkoffee/actions/workflows/deliver.yml/badge.svg)](https://github.com/s3-school/pkoffee/actions/workflows/deliver.yml)
+
+**Ruff badge:**
+```markdown
+[![Ruff](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/astral-sh/ruff/main/assets/badge/v2.json)](https://github.com/astral-sh/ruff)
+```
+
+[![Ruff](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/astral-sh/ruff/main/assets/badge/v2.json)](https://github.com/astral-sh/ruff)
+
+**Custom badge:**
+```markdown
+![Quality](https://img.shields.io/badge/quality-A-brightgreen)
+```
+
+![Quality](https://img.shields.io/badge/quality-A-brightgreen)
+
+
 
 
 <!--

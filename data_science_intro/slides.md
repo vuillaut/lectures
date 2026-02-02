@@ -25,26 +25,22 @@ aspectRatio: 16/9
   </span>
 </div> -->
 
+<div class="text-left">
 
----
+Modules:
 
-- <a href="/data_science_intro/ethics_bias_slides/" target="_self">Ethics and Bias</a>
-- <a href="/lectures/software_publication/" target="_self">Software Publication</a>
+- <a href="https://sdrive.cnrs.fr/s/8WR6WNMJFyrCHBH">Introduction</a>
+- <a href="#" @click.prevent="$slidev.nav.go(2)">Ethics and Biases</a>
 
----
+</div>
 
-- <a href="#ethics">Ethics and biases</a>
-- <a href="#features">Features</a>
-- <a href="#conclusion">Conclusion</a>
-
----
-
-# Table of Contents
-
-- [Introduction](#3)
-- [Features](#10)
-- [Conclusion](#25)
 
 ---
 src: ethics_bias_slides.md
+---
+
+---
+
+<a href="#" @click.prevent="$slidev.nav.go(1)">Back to main menu</a>
+
 ---

@@ -30,6 +30,7 @@ aspectRatio: 16/9
 Modules:
 
 - <a href="https://sdrive.cnrs.fr/s/8WR6WNMJFyrCHBH">Introduction</a>
+- <a href="https://github.com/vuillaut/datascience_intro">Code repository (GitHub)</a>
 - <a href="#" @click.prevent="$slidev.nav.go(2)">Ethics and Biases</a>
 
 </div>

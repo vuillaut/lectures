@@ -1,0 +1,17 @@
+{
+  "name": "data_science_intro",
+  "private": true,
+  "scripts": {
+    "dev": "slidev",
+    "build:slides": "slidev build slides.md --base /lectures/data_science_intro/ --out dist/slides",
+    "build:ethics": "slidev build ethics_bias_slides.md --base /lectures/data_science_intro/ --out dist/ethics_bias",
+    "build": "npm run build:slides && npm run build:ethics"
+  },
+  "devDependencies": {
+    "@slidev/cli": "^52.11.3",
+    "@slidev/theme-seriph": "^0.25.0"
+  },
+  "dependencies": {
+    "@slidev/theme-seriph": "^0.25.0"
+  }
+}

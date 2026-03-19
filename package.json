@@ -6,8 +6,10 @@
     "build:quality_tools": "cd quality_tools && slidev build --base /lectures/quality_tools/ --out ../dist/quality_tools",
     "build:software_publication": "cd software_publication && slidev build --base /lectures/software_publication/ --out ../dist/software_publication",
     "build:data_science_intro": "cd data_science_intro && slidev build --base /lectures/data_science_intro/ --out ../dist/data_science_intro",
-    "build": "npm run build:index && npm run build:quality_tools && npm run build:software_publication && npm run build:data_science_intro",
-    "dev": "slidev"
+    "build:emmy-cnrs": "cd emmy-cnrs && slidev build --base /lectures/emmy-cnrs/ --out ../dist/emmy-cnrs",
+    "build": "npm run build:index && npm run build:quality_tools && npm run build:software_publication && npm run build:data_science_intro && npm run build:emmy-cnrs",
+    "dev": "slidev",
+    "dev:emmy-cnrs": "cd emmy-cnrs && slidev"
   },
   "devDependencies": {
     "@slidev/cli": "^52.11.3",

@@ -419,7 +419,7 @@ pour l'accueil d'un chercheur indien en France en 2026 (Visa Passeport Talent - 
 ```
 
 Utilisation de la recherche approfondie:
-https://chat.mistral.ai/chat/a1e84b35-f401-4c89-8756-46b53bffc112
+https://chat.mistral.ai/chat/baa02390-e3f6-47e0-932b-189f7a6ba397
 
 
 

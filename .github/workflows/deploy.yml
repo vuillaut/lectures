@@ -12,7 +12,7 @@ permissions:
 
 jobs:
   build:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04 # Playwright (PDF export) does not support ubuntu-latest (26.04) yet
 
     steps:
       - uses: actions/checkout@v4
@@ -23,8 +23,6 @@ jobs:
           cache: "npm"
 
       - run: npm install
-        env:
-          PLAYWRIGHT_SKIP_BROWSER_DOWNLOAD: "1"
 
       - run: npm run build
 

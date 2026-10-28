@@ -72,9 +72,9 @@ class: text-sm
 |----------------------|--------------------------|---------------------------|----------------------------------------------------------------------------------------------------------------------|
 | 1. Assistant intégré | Humain, l'outil complète | Humain, en continu        | Autocomplétion de code ou de texte                                                                                   |
 | 2. Chatbot           | Humain pose une question | Humain relit              | "Résume ce rapport de 500 pages"                                                                                     |
-| 3. Agent             | Humain fixe un but       | Aux points de contrôle    | "Fait un histogramme de ces données"                                                                                 |
-| 4. Agent proactif    | L'agent déclenche        | Variable                  | "Chaque semaine, cherche tous les articles du domaine et préviens moi quand tu vois un article intéressant pour moi" |
-| 5. Équipe d'agents   | Un orchestrateur         | Humains en bout de chaîne | Riemann, Fermat, Navier–Stokes                                                                                       |
+| 3. Agent             | Humain fixe un but       | Aux points de contrôle    | "Fais un histogramme de ces données"                                                                                 |
+| 4. Agent proactif    | L'agent déclenche        | Variable                  | "Chaque semaine, cherche tous les articles du domaine et préviens-moi quand tu vois un article intéressant pour moi" |
+| 5. Équipe d'agents   | Un orchestrateur         | Humains en bout de chaîne | Zéros de ζ, Fermat, Navier–Stokes                                                                                    |
 
 <div v-click class="mt-4 text-center text-lg">
 « je fais » → « je dirige » → « je juge »<br>
@@ -99,7 +99,7 @@ layout: section
 <img src="/qrcode-slido.png" class="mx-auto" style="height:280px">
 
 <div class="text-center mt-2 text-xl">
-Join at <b>slido.com</b><br>
+Rejoindre sur <b>slido.com</b><br>
 <b>#1491 034</b>
 </div>
 
@@ -113,7 +113,7 @@ Join at <b>slido.com</b><br>
 <div class="card text-2xl">AI assistance concentrates on information- and text-intensive tasks, but its role diminishes where judgment is required.</div>
 </div>
 
-<div class="src">Fudan University, Shanghai Academy of AI for Science & Springer Nature, <i>AI for Science 2026</i>, 2026. Enquête NRI sur l'usage des outils d'IA.</div>
+<div class="src">Springer Nature, Fudan University & Shanghai Academy of AI for Science, <i>The State of AI Use Among Researchers</i>, juil. 2026 (enquête de mars 2026 : 10 480 répondants, 117 pays).</div>
 
 
 ---
@@ -150,17 +150,17 @@ lignes de **Zig** portées en **Rust**, presque entièrement par des agents Clau
 </div>
 <div v-click>
 
-<div class="big" style="color:#2f855a">99,8 %</div>
-des tests de Bun passés (Linux x64 glibc) au 30 juillet
+<div class="big" style="color:#2f855a">Bun 1.4</div>
+première version stable en Rust, livrée en production le 20 août 2026
 
 </div>
 </div>
 
 <div v-click class="mt-10 card">
-Mais : les versions stables sont encore livrées depuis la base Zig. <b>Le port n'est pas en production.</b>
+Mais : <b>19 régressions sémantiques</b> introduites par le port (corrigées depuis), et une critique publique du créateur de Zig : « unreviewed slop ».
 </div>
 
-<div class="src">Jarred Sumner, Bun, 2026</div>
+<div class="src">Jarred Sumner (Bun), 2026 · The Register, InfoQ, DevClass, 2026</div>
 
 ---
 
@@ -185,7 +185,7 @@ Mais : les versions stables sont encore livrées depuis la base Zig. <b>Le port 
 
 <img src="/illustrations/s2_metr_headline_log.png" class="mx-auto" style="height:340px">
 
-<div class="text-center mt-2 text-xl"><b>Progrès exponentiel</b> : l'horizon de tâche double régulièrement</div>
+<div class="text-center mt-2 text-xl"><b>Progrès exponentiel</b> : l'horizon de tâche double environ tous les 7 mois (2019–2024)</div>
 
 <div class="src">Kwa, West et al., METR, « Measuring AI Ability to Complete Long Tasks », arXiv 2503.14499, CC BY 4.0</div>
 
@@ -198,7 +198,7 @@ Mais : les versions stables sont encore livrées depuis la base Zig. <b>Le port 
 - L'horizon à **80 %** de réussite est beaucoup plus court que celui à 50 %
 - Tâches **logicielles vérifiables** uniquement
 - Difficulté d'une tâche ≠ durée d'autonomie
-- Saturation des suites de tests
+- Saturation des benchmarks
 
 </v-clicks>
 
@@ -230,7 +230,7 @@ Benchmark : **10× à 100×** plus rapide.
 
 <div v-click class="mt-8 text-center text-xl">
 Une traduction « réussie » peut cacher des <b>régressions silencieuses</b>.<br>
-Fonctionnalité vs sécurité : souvent délaissée.
+Exactitude et attribution (licences, copyright) sacrifiées.
 </div>
 
 ---
@@ -289,8 +289,10 @@ class: text-center
 <div class="grid grid-cols-3 gap-8 mt-10">
 <div><div class="big">722</div>manuscrits</div>
 <div><div class="big">372</div>familles de résultats</div>
-<div><div class="big" style="color:#c53030">3 + 14</div>retirés / révisés en 48 h</div>
+<div><div class="big" style="color:#c53030">3 + 14</div>retirés le lendemain / révisés</div>
 </div>
+
+<div class="mt-6 text-lg">Seulement <b>162</b> avec le résultat principal vérifié en Lean.</div>
 
 <div class="mt-10 text-xl opacity-80">Personne n'a eu le temps de les lire.</div>
 
@@ -427,7 +429,7 @@ layout: section
 
 <div class="mt-4 text-center text-lg">Espoir n°1 : la productivité. Crainte n°1 : l'exactitude et les hallucinations.</div>
 
-<div class="src">Source : enquête NRI sur l'usage des outils d'IA, 2026 (Fudan University, Shanghai Academy of AI for Science & Springer Nature).</div>
+<div class="src">Springer Nature, Fudan University & Shanghai Academy of AI for Science, <i>The State of AI Use Among Researchers</i>, juil. 2026 (10 480 répondants, 117 pays).</div>
 
 
 ---
@@ -444,12 +446,14 @@ layout: section
 
 <div class="grid grid-cols-4 gap-4 mt-6 text-center">
 <div><div class="big" style="color:#2f855a">×3</div>publications pour les utilisateurs de l'IA</div>
-<div><div class="big" style="color:#2f855a">×4,8</div>citations par publication</div>
+<div><div class="big" style="color:#2f855a">×4,8</div>citations (au total)</div>
 <div v-click><div class="big" style="color:#c53030">−4,63 %</div>de sujets étudiés collectivement</div>
 <div v-click><div class="big" style="color:#c53030">−22 %</div>d'engagement entre chercheurs</div>
 </div>
 
 <div v-click class="mt-10 text-center text-xl">Chacun gagne. <b>La science, collectivement, se rétrécit.</b></div>
+
+<div class="mt-4 text-center text-sm opacity-70">Corrélations, pas causalité. « IA » = méthodes d'apprentissage automatique, pas seulement les LLM.</div>
 
 <div class="src">Hao, Xu, Li, Evans, <i>Nature</i> 649, 2026 · arXiv 2412.07727</div>
 
@@ -477,14 +481,14 @@ Allons-nous construire **Deep Thought**…
 
 |                                                                |                                                                                                                                                            |                                                                                                                                                             |
 |----------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **A.** La production n'est plus la bonne métrique de promotion | Le coût marginal d'un article baisse                                                                                                                       | Métrique déjà critiquée avant l'IA (DORA 2012, Leiden 2015)                                                                                                 |
+| **A.** La production n'est plus la bonne métrique de promotion | Le coût marginal d'un article baisse                                                                                                                       | Métrique déjà critiquée avant l'IA (DORA 2012, Manifeste de Leiden 2015)                                                                                               |
 | **B.** Recrutement et formation des jeunes menacés             | Si l'IA peut faire un travail de thèse, prend-on encore un(e) étudiant(e) ? Avec une ANR ou une ERC, paye-t-on une armée d'agents plutôt qu'un doctorant ? | Former des jeunes est-il valorisé ?                                                                                                                         |
 | **C.** Les appels à projets n'ont plus de sens                 | Proposals écrits et relus par des IA ; production proportionnelle au capital investi ?                                                                     | Défauts connus depuis longtemps ; la physique des hautes énergies est déjà « proportionnelle aux capitaux » ; coûts d'inférence en baisse ; modèles ouverts |
 | **D.** Le choix des sujets est en jeu                          | Hao et al. : −4,63 % de sujets ; « Claude-shaped science », M. Schwartz                                                                                    | l'IA peut abaisser le coût d'entrée de sujets de niche ; le goût humain est lui aussi biaisé (effet de mode)                                                |
 
 </div>
 
-<div v-click class="mt-10 text-s">Quel sujet de thèse proposer en prenant le risque qu'il soit résolu en 10 minutes par une IA avant la fin de la thèse ?, V. Reverdy
+<div v-click class="mt-10 text-sm">Quel sujet de thèse proposer en prenant le risque qu'il soit résolu en 10 minutes par une IA avant la fin de la thèse ? (V. Reverdy)
  - Quelles motivations et quelles incitations donner aux jeunes chercheurs ?</div>
 
 

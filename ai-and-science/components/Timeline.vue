@@ -17,12 +17,12 @@ const events = [
   { d: 'Oct. 2025', t: 'Incident Erdős', s: 'dis', x: 'GPT-5 aurait « résolu » 10 problèmes d’Erdős. En fait : des résultats existants que le site ne répertoriait pas.' },
   { d: 'Mars 2026', t: 'Vibe physics', s: 'pre', x: 'Schwartz (Harvard) : un article de QCD en 2 semaines avec Claude, sous supervision. Résultats ajustés par l’agent, documentés par l’auteur.' },
   { d: 'Mai 2026', t: 'Distance unité (Erdős)', s: 'est', x: 'Réfutation d’une conjecture ouverte depuis 1946, vérifiée et contextualisée par des mathématiciens externes.' },
-  { d: 'Août 2026', t: 'Zéros de ζ', s: 'ind', x: 'Fraction de zéros sur la droite critique : 41,6 % → 67,2 %. Ce n’est pas une avancée vers Riemann au sens fort.' },
+  { d: 'Août 2026', t: 'Zéros de ζ', s: 'ind', x: 'Fraction de zéros sur la droite critique : 41,7 % → plus des 2/3. Vérifié par des mathématiciens d’Anthropic, puis nouvelle preuve indépendante (Lamzouri). Ce n’est pas une avancée vers Riemann au sens fort.' },
   { d: '4 sept. 2026', t: 'Fermat en Lean', s: 'est', x: 'Formalisation d’une preuve connue (Wiles, 1995) par des agents. Établi techniquement, mal titré.' },
   { d: '8 sept. 2026', t: 'Navier–Stokes', s: 'dis', x: 'Explosion en temps fini avec forçage lisse (~10 000 agents, ~88 h, >10M$). Priorité et formulation contestées.' },
   { d: '11 sept. 2026', t: '25 médaillés Fields', s: 'dis', x: 'Déclaration « A Severe Misalignment of AI in Mathematics ».' },
   { d: '25 sept. 2026', t: 'Neuf boucles', s: 'est', x: 'Amplitude N=4 SYM à 9 boucles (record humain : 8), vérifiée par L. Dixon. Méthodes connues, plus de calcul.' },
-  { d: '6 oct. 2026', t: 'Mathapocalypse', s: 'dis', x: '722 manuscrits / 372 familles de résultats, non relus. 3 retirés en 24 h, 14 révisés.' },
+  { d: '6 oct. 2026', t: 'Mathapocalypse', s: 'dis', x: '722 manuscrits / 372 familles de résultats, non relus ; 162 avec le résultat principal vérifié en Lean. 3 retirés le lendemain, 14 révisés.' },
 ] as { d: string; t: string; s: Status; x: string }[]
 
 const sel = ref(0)

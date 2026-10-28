@@ -74,7 +74,7 @@ class: text-sm
 | 2. Chatbot            | Human asks a question     | Human proofreads               | "Summarize this 500-page report"                                                                         |
 | 3. Agent              | Human sets a goal         | At checkpoints                 | "Make a histogram of this data"                                                                          |
 | 4. Proactive agent    | The agent triggers        | Variable                       | "Every week, search all papers in the field and let me know when you see one that is interesting for me" |
-| 5. Team of agents     | An orchestrator           | Humans at the end of the chain | Riemann, Fermat, Navier–Stokes                                                                           |
+| 5. Team of agents     | An orchestrator           | Humans at the end of the chain | Zeros of ζ, Fermat, Navier–Stokes                                                                        |
 
 <div v-click class="mt-4 text-center text-lg">
 "I do" → "I direct" → "I judge"<br>
@@ -113,7 +113,7 @@ Join at <b>slido.com</b><br>
 <div class="card text-2xl">AI assistance concentrates on information- and text-intensive tasks, but its role diminishes where judgment is required.</div>
 </div>
 
-<div class="src">Fudan University, Shanghai Academy of AI for Science & Springer Nature, <i>AI for Science 2026</i>, 2026. NRI survey on the use of AI tools.</div>
+<div class="src">Springer Nature, Fudan University & Shanghai Academy of AI for Science, <i>The State of AI Use Among Researchers</i>, Jul 2026 (March 2026 survey: 10,480 respondents, 117 countries).</div>
 
 
 ---
@@ -150,17 +150,17 @@ lines of **Zig** ported to **Rust**, almost entirely by Claude agents
 </div>
 <div v-click>
 
-<div class="big" style="color:#2f855a">99.8%</div>
-of Bun's tests passed (Linux x64 glibc) as of July 30
+<div class="big" style="color:#2f855a">Bun 1.4</div>
+first stable release in Rust, shipped to production on August 20, 2026
 
 </div>
 </div>
 
 <div v-click class="mt-10 card">
-But: stable releases are still shipped from the Zig codebase. <b>The port is not in production.</b>
+But: <b>19 semantic regressions</b> introduced by the port (since fixed), and public criticism from Zig's creator: "unreviewed slop".
 </div>
 
-<div class="src">Jarred Sumner, Bun, 2026</div>
+<div class="src">Jarred Sumner (Bun), 2026 · The Register, InfoQ, DevClass, 2026</div>
 
 ---
 
@@ -185,7 +185,7 @@ But: stable releases are still shipped from the Zig codebase. <b>The port is not
 
 <img src="/illustrations/s2_metr_headline_log.png" class="mx-auto" style="height:340px">
 
-<div class="text-center mt-2 text-xl"><b>Exponential progress</b>: the task horizon doubles regularly</div>
+<div class="text-center mt-2 text-xl"><b>Exponential progress</b>: the task horizon doubles roughly every 7 months (2019–2024)</div>
 
 <div class="src">Kwa, West et al., METR, "Measuring AI Ability to Complete Long Tasks", arXiv 2503.14499, CC BY 4.0</div>
 
@@ -230,7 +230,7 @@ Benchmark: **10× to 100×** faster.
 
 <div v-click class="mt-8 text-center text-xl">
 A "successful" translation can hide <b>silent regressions</b>.<br>
-Functionality vs security: often neglected.
+Correctness and attribution (licenses, copyright) sacrificed.
 </div>
 
 ---
@@ -289,8 +289,10 @@ class: text-center
 <div class="grid grid-cols-3 gap-8 mt-10">
 <div><div class="big">722</div>manuscripts</div>
 <div><div class="big">372</div>families of results</div>
-<div><div class="big" style="color:#c53030">3 + 14</div>withdrawn / revised within 48 h</div>
+<div><div class="big" style="color:#c53030">3 + 14</div>withdrawn the next day / revised</div>
 </div>
+
+<div class="mt-6 text-lg">Only <b>162</b> with their main result checked in Lean.</div>
 
 <div class="mt-10 text-xl opacity-80">Nobody had time to read them.</div>
 
@@ -427,7 +429,7 @@ layout: section
 
 <div class="mt-4 text-center text-lg">Hope #1: productivity. Concern #1: accuracy and hallucinations.</div>
 
-<div class="src">Source: NRI survey on the use of AI tools, 2026 (Fudan University, Shanghai Academy of AI for Science & Springer Nature).</div>
+<div class="src">Springer Nature, Fudan University & Shanghai Academy of AI for Science, <i>The State of AI Use Among Researchers</i>, Jul 2026 (10,480 respondents, 117 countries).</div>
 
 
 ---
@@ -444,12 +446,14 @@ layout: section
 
 <div class="grid grid-cols-4 gap-4 mt-6 text-center">
 <div><div class="big" style="color:#2f855a">×3</div>publications for AI users</div>
-<div><div class="big" style="color:#2f855a">×4.8</div>citations per publication</div>
+<div><div class="big" style="color:#2f855a">×4.8</div>citations (total)</div>
 <div v-click><div class="big" style="color:#c53030">−4.63%</div>of topics studied collectively</div>
 <div v-click><div class="big" style="color:#c53030">−22%</div>of engagement between researchers</div>
 </div>
 
 <div v-click class="mt-10 text-center text-xl">Everyone wins. <b>Science, collectively, shrinks.</b></div>
+
+<div class="mt-4 text-center text-sm opacity-70">Correlations, not causation. "AI" = machine-learning methods, not only LLMs.</div>
 
 <div class="src">Hao, Xu, Li, Evans, <i>Nature</i> 649, 2026 · arXiv 2412.07727</div>
 
@@ -477,14 +481,14 @@ Are we going to build **Deep Thought**…
 
 |                                                               |                                                                                                                                             |                                                                                                                                        |
 |---------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------|
-| **A.** Output is no longer the right metric for promotion     | The marginal cost of a paper drops                                                                                                          | The metric was already criticized before AI (DORA 2012, Leiden 2015)                                                                   |
+| **A.** Output is no longer the right metric for promotion     | The marginal cost of a paper drops                                                                                                          | The metric was already criticized before AI (DORA 2012, Leiden Manifesto 2015)                                                                 |
 | **B.** Hiring and training of young researchers is threatened | If AI can do a thesis work, do we still hire a student? With an ANR or an ERC grant, do we pay an army of agents rather than a PhD student? | Is training young people rewarded?                                                                                                     |
 | **C.** Funding calls no longer make sense                     | Proposals written and reviewed by AIs; output proportional to the capital invested?                                                         | Known flaws for a long time; high-energy physics is already "proportional to capital"; inference costs are dropping; open models exist |
 | **D.** The choice of topics is at stake                       | Hao et al.: −4.63% of topics; "Claude-shaped science", M. Schwartz                                                                          | AI can lower the entry cost of niche topics; human taste is itself biased (fashion effect)                                             |
 
 </div>
 
-<div v-click class="mt-10 text-s">What thesis topic to propose, taking the risk that it will be solved in 10 minutes by an AI before the end of the thesis?, V. Reverdy
+<div v-click class="mt-10 text-sm">What thesis topic to propose, taking the risk that it will be solved in 10 minutes by an AI before the end of the thesis? (V. Reverdy)
  - What motivations and incentives to give young researchers?</div>
 
 

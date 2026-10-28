@@ -17,12 +17,12 @@ const events = [
   { d: 'Oct 2025', t: 'Erdős incident', s: 'dis', x: 'GPT-5 supposedly "solved" 10 Erdős problems. In fact: existing results that the website did not list.' },
   { d: 'Mar 2026', t: 'Vibe physics', s: 'pre', x: 'Schwartz (Harvard): a QCD paper in 2 weeks with Claude under supervision. Results tuned by the agent, documented by the author.' },
   { d: 'May 2026', t: 'Unit distance (Erdős)', s: 'est', x: 'Disproof of a conjecture open since 1946, verified and put in context by external mathematicians.' },
-  { d: 'Aug 2026', t: 'Zeros of ζ', s: 'ind', x: 'Fraction of zeros on the critical line: 41.6% → 67.2%. Not an advance toward Riemann in the strong sense.' },
+  { d: 'Aug 2026', t: 'Zeros of ζ', s: 'ind', x: 'Fraction of zeros on the critical line: 41.7% → more than 2/3. Verified by Anthropic mathematicians, then an independent new proof (Lamzouri). Not an advance toward Riemann in the strong sense.' },
   { d: 'Sep 4, 2026', t: 'Fermat in Lean', s: 'est', x: 'Formalization of a known proof (Wiles, 1995) by agents. Technically established, misleadingly titled.' },
   { d: 'Sep 8, 2026', t: 'Navier–Stokes', s: 'dis', x: 'Finite-time blow-up with smooth forcing (~10,000 agents, ~88 h, >$10M). Priority and formulation disputed.' },
   { d: 'Sep 11, 2026', t: '25 Fields medalists', s: 'dis', x: 'Statement "A Severe Misalignment of AI in Mathematics".' },
   { d: 'Sep 25, 2026', t: 'Nine loops', s: 'est', x: 'N=4 SYM amplitude at 9 loops (human record: 8), verified by L. Dixon. Known methods, more compute.' },
-  { d: 'Oct 6, 2026', t: 'Mathapocalypse', s: 'dis', x: '722 manuscripts / 372 families of results, unreviewed. 3 withdrawn within 24 h, 14 revised.' },
+  { d: 'Oct 6, 2026', t: 'Mathapocalypse', s: 'dis', x: '722 manuscripts / 372 families of results, unreviewed; 162 with their main result checked in Lean. 3 withdrawn the next day, 14 revised.' },
 ] as { d: string; t: string; s: Status; x: string }[]
 
 const sel = ref(0)

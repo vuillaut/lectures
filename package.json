@@ -7,9 +7,11 @@
     "build:software_publication": "cd software_publication && slidev build --base /lectures/software_publication/ --out ../dist/software_publication",
     "build:data_science_intro": "cd data_science_intro && slidev build --base /lectures/data_science_intro/ --out ../dist/data_science_intro",
     "build:emmy-cnrs": "cd emmy-cnrs && slidev build --base /lectures/emmy-cnrs/ --out ../dist/emmy-cnrs",
-    "build": "npm run build:index && npm run build:quality_tools && npm run build:software_publication && npm run build:data_science_intro && npm run build:emmy-cnrs",
+    "build:ai-and-science": "cd ai-and-science && slidev build slides.md --base /lectures/ai-and-science/fr/ --out ../dist/ai-and-science/fr && slidev build slides_en.md --base /lectures/ai-and-science/en/ --out ../dist/ai-and-science/en && node landing.mjs ../dist/ai-and-science",
+    "build": "npm run build:index && npm run build:quality_tools && npm run build:software_publication && npm run build:data_science_intro && npm run build:emmy-cnrs && npm run build:ai-and-science",
     "dev": "slidev",
-    "dev:emmy-cnrs": "cd emmy-cnrs && slidev"
+    "dev:emmy-cnrs": "cd emmy-cnrs && slidev",
+    "dev:ai-and-science": "cd ai-and-science && slidev"
   },
   "devDependencies": {
     "@slidev/cli": "^52.11.3",

@@ -54,8 +54,8 @@ layout: section
 <div class="grid grid-cols-4 gap-4 mt-10">
 <div v-click class="card"><div class="text-4xl">🧠</div><h3>Modèle</h3>Un réseau entraîné à prédire la suite d'un texte. Il ne fait rien tout seul.</div>
 <div v-click class="card"><div class="text-4xl">💬</div><h3>Chatbot</h3>Un modèle + une interface de conversation. Il répond.</div>
-<div v-click class="card"><div class="text-4xl">🛠️</div><h3>Agent</h3>Un modèle qui utilise des <b>outils</b> (web, code, bases de données) en boucle, et décide de la suite.</div>
 <div v-click class="card"><div class="text-4xl">🧰</div><h3>Harnais</h3>Le logiciel autour du modèle : outils, mémoire, permissions, vérifications.</div>
+<div v-click class="card"><div class="text-4xl">🛠️</div><h3>Agent</h3>Un modèle qui utilise des <b>outils</b> (web, code, bases de données) en boucle, et décide de la suite.</div>
 </div>
 
 <div v-click class="mt-10 text-center text-xl">

@@ -127,15 +127,33 @@ layout: center
 class: text-center
 ---
 
-# Will Smith mange des spaghettis
+# La mesure METR : la durée des tâches qu'un agent réussit
 
-<div class="text-xl mt-6">2023 → 2026</div>
+<img src="/illustrations/s2_metr_headline_log.png" class="mx-auto" style="height:340px">
 
-<div class="mt-4 flex justify-center">
-<iframe src="https://www.youtube.com/embed/ygVLDfj2_F0" title="Will Smith mange des spaghettis" width="248" height="440" class="rounded shadow" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<div class="text-center mt-2 text-xl"><b>Progrès exponentiel</b> : l'horizon de tâche double environ tous les 7 mois (2019–2024)</div>
+
+<br>
+<br>
+
+<div class="src">Kwa, West et al., METR, « Measuring AI Ability to Complete Long Tasks », arXiv 2503.14499, CC BY 4.0</div>
+
+---
+
+# …mais attention à ce que l'on mesure
+
+<v-clicks>
+
+- L'horizon à **80 %** de réussite est beaucoup plus court que celui à 50 %
+- Tâches **logicielles vérifiables** uniquement
+- Difficulté d'une tâche ≠ durée d'autonomie
+- Saturation des benchmarks
+
+</v-clicks>
+
+<div v-click class="mt-8 card text-lg">
+Croissance rapide et mesurable sur des tâches logicielles vérifiables, <b>forte incertitude sur la généralisation</b>.
 </div>
-
-<!-- Lancer la vidéo. Trois ans. -->
 
 ---
 
@@ -167,7 +185,7 @@ Mais : <b>19 régressions sémantiques</b> introduites par le port (corrigées d
 # Des logiciels entiers, à la demande
 
 <div class="grid grid-cols-3 gap-4 mt-6">
-<div class="card"><h3>🎨 ArtCraft</h3>7 applications libres en Rust qui imitent Photoshop, Premiere, Lightroom, Illustrator, Acrobat, avec IA intégrée</div>
+<div class="card"><h3>🎨 ArtCraft</h3>Applications libres en Rust qui imitent Photoshop, Lightroom, Acrobat, Excel...</div>
 <div class="card"><h3>🎮 Jeux vidéo</h3>Génération de jeux complets</div>
 <div class="card"><h3>🧊 Blender / 3D</h3>Modèles 3D et scènes générés</div>
 </div>
@@ -181,33 +199,17 @@ Mais : <b>19 régressions sémantiques</b> introduites par le port (corrigées d
 
 ---
 
-# La mesure METR : la durée des tâches qu'un agent réussit
+# Will Smith mange des spaghettis
 
-<img src="/illustrations/s2_metr_headline_log.png" class="mx-auto" style="height:340px">
+<div class="text-xl mt-6">2023 → 2026</div>
 
-<div class="text-center mt-2 text-xl"><b>Progrès exponentiel</b> : l'horizon de tâche double environ tous les 7 mois (2019–2024)</div>
-
-<div class="src">Kwa, West et al., METR, « Measuring AI Ability to Complete Long Tasks », arXiv 2503.14499, CC BY 4.0</div>
-
----
-
-# …mais attention à ce que l'on mesure
-
-<v-clicks>
-
-- L'horizon à **80 %** de réussite est beaucoup plus court que celui à 50 %
-- Tâches **logicielles vérifiables** uniquement
-- Difficulté d'une tâche ≠ durée d'autonomie
-- Saturation des benchmarks
-
-</v-clicks>
-
-<div v-click class="mt-8 card text-lg">
-Croissance rapide et mesurable sur des tâches logicielles vérifiables, <b>forte incertitude sur la généralisation</b>.
+<div class="mt-4 flex justify-center">
+<iframe src="https://www.youtube.com/embed/ygVLDfj2_F0" title="Will Smith mange des spaghettis" width="248" height="440" class="rounded shadow" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
----
+<!-- Lancer la vidéo. Trois ans. -->
 
+<!-- 
 # Un contre-exemple instructif : ScanCode
 
 <div class="grid grid-cols-2 gap-6 mt-4">
@@ -231,7 +233,7 @@ Benchmark : **10× à 100×** plus rapide.
 <div v-click class="mt-8 text-center text-xl">
 Une traduction « réussie » peut cacher des <b>régressions silencieuses</b>.<br>
 Exactitude et attribution (licences, copyright) sacrifiées.
-</div>
+</div> -->
 
 ---
 layout: section
@@ -451,7 +453,7 @@ layout: section
 <div v-click><div class="big" style="color:#c53030">−22 %</div>d'engagement entre chercheurs</div>
 </div>
 
-<div v-click class="mt-10 text-center text-xl">Chacun gagne. <b>La science, collectivement, se rétrécit.</b></div>
+<div v-click class="mt-10 text-center text-xl">Les utilisateurs de l'IA gagnent. <b>La science, collectivement, se rétrécit.</b></div>
 
 <div class="mt-4 text-center text-sm opacity-70">Corrélations, pas causalité. « IA » = méthodes d'apprentissage automatique, pas seulement les LLM.</div>
 
@@ -479,12 +481,12 @@ Allons-nous construire **Deep Thought**…
 
 <div style="font-size:.70em">
 
-|                                                                |                                                                                                                                                            |                                                                                                                                                             |
-|----------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **A.** La production n'est plus la bonne métrique de promotion | Le coût marginal d'un article baisse                                                                                                                       | Métrique déjà critiquée avant l'IA (DORA 2012, Manifeste de Leiden 2015)                                                                                               |
-| **B.** Recrutement et formation des jeunes menacés             | Si l'IA peut faire un travail de thèse, prend-on encore un(e) étudiant(e) ? Avec une ANR ou une ERC, paye-t-on une armée d'agents plutôt qu'un doctorant ? | Former des jeunes est-il valorisé ?                                                                                                                         |
-| **C.** Les appels à projets n'ont plus de sens                 | Proposals écrits et relus par des IA ; production proportionnelle au capital investi ?                                                                     | Défauts connus depuis longtemps ; la physique des hautes énergies est déjà « proportionnelle aux capitaux » ; coûts d'inférence en baisse ; modèles ouverts |
-| **D.** Le choix des sujets est en jeu                          | Hao et al. : −4,63 % de sujets ; « Claude-shaped science », M. Schwartz                                                                                    | l'IA peut abaisser le coût d'entrée de sujets de niche ; le goût humain est lui aussi biaisé (effet de mode)                                                |
+|                                                                             |                                                                                                                                                                          |                                                                                                                                                             |
+|-----------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **A.** La production n'est **vraiment** plus la bonne métrique de promotion | Le coût marginal d'un article baisse                                                                                                                                     | Métrique déjà critiquée avant l'IA (DORA 2012, Manifeste de Leiden 2015)                                                                                    |
+| **B.** Recrutement et formation des jeunes menacés                          | Si l'IA peut faire un travail de thèse, prend-on encore un(e) étudiant(e) ? Avec une ANR ou une ERC, paye-t-on une armée d'agents plutôt qu'un doctorant ou un postdoc ? | Former des jeunes est-il correctement valorisé ?                                                                                                            |
+| **C.** Les appels à projets n'ont **vraiment** plus de sens                 | Proposals écrits et relus par des IA ; production proportionnelle au capital investi ?                                                                                   | Défauts connus depuis longtemps ; la physique des hautes énergies est déjà « proportionnelle aux capitaux » ; coûts d'inférence en baisse ; modèles ouverts |
+| **D.** Le choix des sujets est en jeu                                       | Hao et al. : −4,63 % de sujets ; « Claude-shaped science », M. Schwartz                                                                                                  | l'IA peut abaisser le coût d'entrée de sujets de niche ; le goût humain est lui aussi biaisé (effet de mode)                                                |
 
 </div>
 
@@ -504,7 +506,7 @@ layout: section
 
 <div class="grid grid-cols-3 gap-6 mt-10 text-center">
 <div v-click class="card"><div class="text-4xl">🔭</div><h3>Découvrir</h3></div>
-<div v-click class="card"><div class="text-4xl">⚙️</div><h3>Développer des technologies</h3></div>
+<div v-click class="card"><div class="text-4xl">⚙️</div><h3>Améliorer nos vies</h3></div>
 <div v-click class="card"><div class="text-4xl">💡</div><h3>Comprendre</h3></div>
 </div>
 

@@ -23,6 +23,7 @@ const events = [
   { d: 'Sep 11, 2026', t: '25 Fields medalists', s: 'dis', x: 'Statement "A Severe Misalignment of AI in Mathematics".' },
   { d: 'Sep 25, 2026', t: 'Nine loops', s: 'est', x: 'N=4 SYM amplitude at 9 loops (human record: 8), verified by L. Dixon. Known methods, more compute.' },
   { d: 'Oct 6, 2026', t: 'Mathapocalypse', s: 'dis', x: '722 manuscripts / 372 families of results, unreviewed; 162 with their main result checked in Lean. 3 withdrawn the next day, 14 revised.' },
+  { d: 'Oct 26, 2026', t: 'Kakeya, ETH, QCD', s: 'ind', x: 'OpenAI claims three results: the Kakeya conjecture (via local smoothing) in all dimensions, a disproof of the Exponential Time Hypothesis (ETH), and the existence of QCD. External reviews announced (Impagliazzo, Paturi, Williams; a group led by D. Gross), not yet done.' },
 ] as { d: string; t: string; s: Status; x: string }[]
 
 const sel = ref(0)

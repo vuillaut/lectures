@@ -23,6 +23,7 @@ const events = [
   { d: '11 sept. 2026', t: '25 médaillés Fields', s: 'dis', x: 'Déclaration « A Severe Misalignment of AI in Mathematics ».' },
   { d: '25 sept. 2026', t: 'Neuf boucles', s: 'est', x: 'Amplitude N=4 SYM à 9 boucles (record humain : 8), vérifiée par L. Dixon. Méthodes connues, plus de calcul.' },
   { d: '6 oct. 2026', t: 'Mathapocalypse', s: 'dis', x: '722 manuscrits / 372 familles de résultats, non relus ; 162 avec le résultat principal vérifié en Lean. 3 retirés le lendemain, 14 révisés.' },
+  { d: '26 oct. 2026', t: 'Kakeya, ETH, QCD', s: 'ind', x: 'OpenAI revendique trois résultats : conjecture de Kakeya (via le lissage local) en toute dimension, réfutation de l’hypothèse du temps exponentiel (ETH), existence de la QCD. Revues externes annoncées (Impagliazzo, Paturi, Williams ; groupe mené par D. Gross), non encore faites.' },
 ] as { d: string; t: string; s: Status; x: string }[]
 
 const sel = ref(0)

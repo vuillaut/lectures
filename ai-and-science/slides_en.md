@@ -127,17 +127,36 @@ layout: center
 class: text-center
 ---
 
-# Will Smith eating spaghetti
+# The METR measure: the length of tasks an agent completes
 
-<div class="text-xl mt-6">2023 → 2026</div>
+<img src="/illustrations/s2_metr_headline_log.png" class="mx-auto" style="height:340px">
 
-<div class="mt-4 flex justify-center">
-<iframe src="https://www.youtube.com/embed/ygVLDfj2_F0" title="Will Smith eating spaghetti" width="248" height="440" class="rounded shadow" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-</div>
+<div class="text-center mt-2 text-xl"><b>Exponential progress</b>: the task horizon doubles roughly every 7 months (2019–2024)</div>
 
-<!-- Play the video. Three years. -->
+<br>
+<br>
+
+<div class="src">Kwa, West et al., METR, "Measuring AI Ability to Complete Long Tasks", arXiv 2503.14499, CC BY 4.0</div>
 
 ---
+
+# …but beware of what is being measured
+
+<v-clicks>
+
+- The horizon at **80%** success is much shorter than at 50%
+- **Verifiable software** tasks only
+- Task difficulty ≠ duration of autonomy
+- Benchmark saturation
+
+</v-clicks>
+
+<div v-click class="mt-8 card text-lg">
+Fast, measurable growth on verifiable software tasks, <b>high uncertainty on generalization</b>.
+</div>
+
+---
+
 
 # Translating 535,000 lines of code
 
@@ -167,7 +186,7 @@ But: <b>19 semantic regressions</b> introduced by the port (since fixed), and pu
 # Entire software, on demand
 
 <div class="grid grid-cols-3 gap-4 mt-6">
-<div class="card"><h3>🎨 ArtCraft</h3>7 free Rust applications imitating Photoshop, Premiere, Lightroom, Illustrator, Acrobat, with built-in AI</div>
+<div class="card"><h3>🎨 ArtCraft</h3>Free Rust applications imitating Photoshop, Lightroom, Acrobat, Excel...</div>
 <div class="card"><h3>🎮 Video games</h3>Generation of complete games</div>
 <div class="card"><h3>🧊 Blender / 3D</h3>Generated 3D models and scenes</div>
 </div>
@@ -181,33 +200,17 @@ But: <b>19 semantic regressions</b> introduced by the port (since fixed), and pu
 
 ---
 
-# The METR measure: the length of tasks an agent completes
+# Will Smith eating spaghetti
 
-<img src="/illustrations/s2_metr_headline_log.png" class="mx-auto" style="height:340px">
+<div class="text-xl mt-6">2023 → 2026</div>
 
-<div class="text-center mt-2 text-xl"><b>Exponential progress</b>: the task horizon doubles roughly every 7 months (2019–2024)</div>
-
-<div class="src">Kwa, West et al., METR, "Measuring AI Ability to Complete Long Tasks", arXiv 2503.14499, CC BY 4.0</div>
-
----
-
-# …but beware of what is being measured
-
-<v-clicks>
-
-- The horizon at **80%** success is much shorter than at 50%
-- **Verifiable software** tasks only
-- Task difficulty ≠ duration of autonomy
-- Benchmark saturation
-
-</v-clicks>
-
-<div v-click class="mt-8 card text-lg">
-Fast, measurable growth on verifiable software tasks, <b>high uncertainty on generalization</b>.
+<div class="mt-4 flex justify-center">
+<iframe src="https://www.youtube.com/embed/ygVLDfj2_F0" title="Will Smith eating spaghetti" width="248" height="440" class="rounded shadow" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
----
+<!-- Play the video. Three years. -->
 
+<!-- 
 # An instructive counter-example: ScanCode
 
 <div class="grid grid-cols-2 gap-6 mt-4">
@@ -231,7 +234,7 @@ Benchmark: **10× to 100×** faster.
 <div v-click class="mt-8 text-center text-xl">
 A "successful" translation can hide <b>silent regressions</b>.<br>
 Correctness and attribution (licenses, copyright) sacrificed.
-</div>
+</div> -->
 
 ---
 layout: section
@@ -451,7 +454,7 @@ layout: section
 <div v-click><div class="big" style="color:#c53030">−22%</div>of engagement between researchers</div>
 </div>
 
-<div v-click class="mt-10 text-center text-xl">Everyone wins. <b>Science, collectively, shrinks.</b></div>
+<div v-click class="mt-10 text-center text-xl">AI users win. <b>Science, collectively, shrinks.</b></div>
 
 <div class="mt-4 text-center text-sm opacity-70">Correlations, not causation. "AI" = machine-learning methods, not only LLMs.</div>
 
@@ -479,12 +482,12 @@ Are we going to build **Deep Thought**…
 
 <div style="font-size:.70em">
 
-|                                                               |                                                                                                                                             |                                                                                                                                        |
-|---------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------|
-| **A.** Output is no longer the right metric for promotion     | The marginal cost of a paper drops                                                                                                          | The metric was already criticized before AI (DORA 2012, Leiden Manifesto 2015)                                                                 |
-| **B.** Hiring and training of young researchers is threatened | If AI can do a thesis work, do we still hire a student? With an ANR or an ERC grant, do we pay an army of agents rather than a PhD student? | Is training young people rewarded?                                                                                                     |
-| **C.** Funding calls no longer make sense                     | Proposals written and reviewed by AIs; output proportional to the capital invested?                                                         | Known flaws for a long time; high-energy physics is already "proportional to capital"; inference costs are dropping; open models exist |
-| **D.** The choice of topics is at stake                       | Hao et al.: −4.63% of topics; "Claude-shaped science", M. Schwartz                                                                          | AI can lower the entry cost of niche topics; human taste is itself biased (fashion effect)                                             |
+|                                                                      |                                                                                                                                                        |                                                                                                                                        |
+|----------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------|
+| **A.** Output is **really** no longer the right metric for promotion | The marginal cost of a paper drops                                                                                                                     | The metric was already criticized before AI (DORA 2012, Leiden Manifesto 2015)                                                         |
+| **B.** Hiring and training of young researchers is threatened        | If AI can do a thesis work, do we still hire a student? With an ANR or an ERC grant, do we pay an army of agents rather than a PhD student or postdoc? | Is training young people correctly rewarded?                                                                                           |
+| **C.** Funding calls **really** make no sense anymore                | Proposals written and reviewed by AIs; output proportional to the capital invested?                                                                    | Known flaws for a long time; high-energy physics is already "proportional to capital"; inference costs are dropping; open models exist |
+| **D.** The choice of topics is at stake                              | Hao et al.: −4.63% of topics; "Claude-shaped science", M. Schwartz                                                                                     | AI can lower the entry cost of niche topics; human taste is itself biased (fashion effect)                                             |
 
 </div>
 
@@ -504,7 +507,7 @@ layout: section
 
 <div class="grid grid-cols-3 gap-6 mt-10 text-center">
 <div v-click class="card"><div class="text-4xl">🔭</div><h3>Discover</h3></div>
-<div v-click class="card"><div class="text-4xl">⚙️</div><h3>Develop technologies</h3></div>
+<div v-click class="card"><div class="text-4xl">⚙️</div><h3>Improve lives</h3></div>
 <div v-click class="card"><div class="text-4xl">💡</div><h3>Understand</h3></div>
 </div>
 
